@@ -14,8 +14,8 @@ function cadastro (event) {
     sucessCadastro.classList.add('sucesso-cadastro')
     sucessCadastro.innerHTML = 'Cadastro realizado com sucesso';
 
-    sessionStorage.setItem('cadastroUsuario', cadastroUsuario);
-    sessionStorage.setItem('cadastroSenha', cadastroSenha);
+    localStorage.setItem('cadastroUsuario', cadastroUsuario);
+    localStorage.setItem('cadastroSenha', cadastroSenha);
 
     setTimeout (function () {
         window.location.href ='index.html';

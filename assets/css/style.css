@@ -118,3 +118,6 @@ form button:active {
     border-radius: 15px;
     color: white;
 }
+input {
+    text-align: center;
+}
